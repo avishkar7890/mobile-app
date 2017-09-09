@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "aavishkar.mad"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "aavishkar.mad"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "aavishkar.mad"
+        },
+        "cordova-plugin-calendar": {
+            "PACKAGE_NAME": "aavishkar.mad"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "aavishkar.mad"
+        }
+    }
+}
