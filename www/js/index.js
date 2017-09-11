@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+		
     },
 
     // deviceready Event Handler
@@ -31,7 +32,7 @@ var app = {
 		
           window.open = cordova.InAppBrowser.open;
            cordova.InAppBrowser.open('https://advisors.principal.com', '_self', 'location=no', 'toolbar=no', 'hidden=yes');		
-		  // inAppBrowserRef =  cordova.InAppBrowser.open('https://advisors.principal.com', '_self', 'location=no', 'toolbar=no', 'hidden=yes');	
+		  
 		   
     },
 	
